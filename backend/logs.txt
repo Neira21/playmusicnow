@@ -1,0 +1,2351 @@
+
+Request: POST /api/auth/login IP: ::1, User Agent: axios/1.7.2
+Request Body:
+{
+	"email": "alvaroNei150@gmail.com",
+	"password": "12451548"
+}
+Response Body:
+{
+	"data": {
+		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmViNTc5MTc0MTRmMDI4ZWQ2NDkyMzIiLCJyb2xlIjpbInVzZXIiXSwiaWF0IjoxNzI2ODg5NTEyLCJleHAiOjE3MjY4OTMxMTJ9.q1ytT448CnFOpa2NKXNjBJPB6jf5HmdzzFhdxOF3Yts",
+		"user": {
+			"_id": "66eb57917414f028ed649232",
+			"name": "Alvaro3",
+			"age": 30,
+			"email": "alvaroNei150@gmail.com",
+			"role": [
+				"user"
+			],
+			"createdAt": "2024-09-18T22:43:29.195Z",
+			"updatedAt": "2024-09-18T22:43:29.195Z"
+		}
+	}
+}
+Response: 200 239.203 ms 
+
+Request: POST /api/auth/login IP: ::1, User Agent: axios/1.7.2
+Request Body:
+{
+	"email": "alvaroNei150@gmail.com",
+	"password": "12451548"
+}
+Response Body:
+{
+	"data": {
+		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmViNTc5MTc0MTRmMDI4ZWQ2NDkyMzIiLCJyb2xlIjpbInVzZXIiXSwiaWF0IjoxNzI2ODg5NTE4LCJleHAiOjE3MjY4OTMxMTh9.pRknFNLiYcInO1JM1Ywvchm1aB3g57-z2KGcw6SQ5cQ",
+		"user": {
+			"_id": "66eb57917414f028ed649232",
+			"name": "Alvaro3",
+			"age": 30,
+			"email": "alvaroNei150@gmail.com",
+			"role": [
+				"user"
+			],
+			"createdAt": "2024-09-18T22:43:29.195Z",
+			"updatedAt": "2024-09-18T22:43:29.195Z"
+		}
+	}
+}
+Response: 200 196.773 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroNei150@gmail.com",[0m
+[97m	"password": "12451548"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmViNTc5MTc0MTRmMDI4ZWQ2NDkyMzIiLCJyb2xlIjpbInVzZXIiXSwiaWF0IjoxNzI2OTMzMjIyLCJleHAiOjE3MjY5MzY4MjJ9.cczC4TZ2MkWG3t5To-0BO48CKq1iIC5HZofS0WApRbs",[0m
+[97m		"user": {[0m
+[97m			"_id": "66eb57917414f028ed649232",[0m
+[97m			"name": "Alvaro3",[0m
+[97m			"age": 30,[0m
+[97m			"email": "alvaroNei150@gmail.com",[0m
+[97m			"role": [[0m
+[97m				"user"[0m
+[97m			],[0m
+[97m			"createdAt": "2024-09-18T22:43:29.195Z",[0m
+[97m			"updatedAt": "2024-09-18T22:43:29.195Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m226.941 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Alvaro",[0m
+[97m	"age": 20,[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "12345678"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_REGISTER_USER"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m10146.376 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Alvaro",[0m
+[97m	"age": 20,[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "12345678"[0m
+[97m}[0m
+[96mResponse: [33m404 [37m4.553 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Alvaro",[0m
+[97m	"age": 20,[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "12345678"[0m
+[97m}[0m
+[96mResponse: [33m404 [37m2.596 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Alvaro",[0m
+[97m	"age": 20,[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "12345678"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjY5NzM1OTUsImV4cCI6MTcyNjk3NzE5NX0.wJEVcg3OLW6w0UZ1REW3Ugn7MQXmhqgF1s4M96GAOjU",[0m
+[97m		"user": {[0m
+[97m			"role": "user",[0m
+[97m			"id": 1,[0m
+[97m			"name": "Alvaro",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$b/HV8eSDTrgIDRWnVfEuHOABgrhHHeREyfMzU5cwJoMbHsXTT79gK",[0m
+[97m			"updated_at": "2024-09-22T02:53:15.553Z",[0m
+[97m			"created_at": "2024-09-22T02:53:15.553Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m277.189 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Alvaro2",[0m
+[97m	"age": 20,[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "12345678"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjY5NzM5MTYsImV4cCI6MTcyNjk3NzUxNn0.Cc-ps67jkLXsqo4vsq2S4iLN_v_XdYzy5HffvHIf1vM",[0m
+[97m		"user": {[0m
+[97m			"role": "user",[0m
+[97m			"id": 2,[0m
+[97m			"name": "Alvaro2",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$glSYJndzg6Wl2aNb.q2rXuBrLVwOXwVzU88LmPOaSgjw7DnZf32S.",[0m
+[97m			"updated_at": "2024-09-22T02:58:36.385Z",[0m
+[97m			"created_at": "2024-09-22T02:58:36.385Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m158.087 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Alvaro3",[0m
+[97m	"age": 20,[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "12345678"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6InVzZXIiLCJpYXQiOjE3MjY5NzM5NDAsImV4cCI6MTcyNjk3NzU0MH0.AFV278tKyKcVG4gjU_dbNakbfiZNSobtaFNgb0I88qw",[0m
+[97m		"user": {[0m
+[97m			"role": "user",[0m
+[97m			"id": 3,[0m
+[97m			"name": "Alvaro3",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$OwZHdTtFUlTXWNXkHjrqA.ShdGIORRkdNHDr0KrP0.Vp7Qnc9UXuq",[0m
+[97m			"updated_at": "2024-09-22T02:59:00.922Z",[0m
+[97m			"created_at": "2024-09-22T02:59:00.922Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m231.140 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "12345678"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjY5NzQyNTUsImV4cCI6MTcyNjk3Nzg1NX0.Q5YxX2uSmVtjNCltAZ36Fo7ymeohHIsxguhfK-hndd8",[0m
+[97m		"user": {[0m
+[97m			"id": 1,[0m
+[97m			"name": "Alvaro",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$b/HV8eSDTrgIDRWnVfEuHOABgrhHHeREyfMzU5cwJoMbHsXTT79gK",[0m
+[97m			"role": "user",[0m
+[97m			"created_at": "2024-09-22T02:53:15.000Z",[0m
+[97m			"updated_at": "2024-09-22T02:53:15.000Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m209.813 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_GET_ITEMS"[0m
+[97m}[0m
+[96mResponse: [31m500 [37m54.983 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Alvaro2",[0m
+[97m	"age": 20,[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjY5NzQzNzYsImV4cCI6MTcyNjk3Nzk3Nn0.Z-Sg3JPnLda-ptfjtSGIVyYGOvlHvx3vXXYzvaKPCSc",[0m
+[97m		"user": {[0m
+[97m			"role": "user",[0m
+[97m			"id": 4,[0m
+[97m			"name": "Alvaro2",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$FLnXHFQuIz44WKwDmgXqCO1hwuG1T4653gGJ64s4w5AlrNWwoel2G",[0m
+[97m			"updated_at": "2024-09-22T03:06:16.788Z",[0m
+[97m			"created_at": "2024-09-22T03:06:16.788Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m151.176 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "PASSWORD_INCORRECT"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m151.242 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Alvaro2",[0m
+[97m	"age": 20,[0m
+[97m	"email": "alvaroneira982@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjY5NzQ0MjksImV4cCI6MTcyNjk3ODAyOX0.JXbe25trgvAbnXNb-KD9Z4O7GlLwV1qMrbQ865KijVI",[0m
+[97m		"user": {[0m
+[97m			"role": "user",[0m
+[97m			"id": 5,[0m
+[97m			"name": "Alvaro2",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira982@gmail.com",[0m
+[97m			"password": "$2a$10$PSoYnXsUojczu6G4WYQJaeZodfOXqu/rpJ.73PaqLv5WGheUK2ydW",[0m
+[97m			"updated_at": "2024-09-22T03:07:09.770Z",[0m
+[97m			"created_at": "2024-09-22T03:07:09.770Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m150.561 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_GET_ITEMS"[0m
+[97m}[0m
+[96mResponse: [31m500 [37m12.415 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "PASSWORD_INCORRECT"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m128.142 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroneira982@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "PASSWORD_INCORRECT"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m145.480 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "AlvaroPrueba",[0m
+[97m	"age": 20,[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Niwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjcwMzI3OTEsImV4cCI6MTcyNzAzNjM5MX0.3sxM5T5eFD-yBFnZGCjrIx_b6Nond_Yh_UIynWFU6rE",[0m
+[97m		"user": {[0m
+[97m			"role": "user",[0m
+[97m			"id": 6,[0m
+[97m			"name": "AlvaroPrueba",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$nDPSLTHj8JhywiGt/wK0weW1RBBr0pAhC5.kufpImCKLghQn/f4W.",[0m
+[97m			"updated_at": "2024-09-22T19:19:51.082Z",[0m
+[97m			"created_at": "2024-09-22T19:19:51.082Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m162.555 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Niwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjcwMzI4MTYsImV4cCI6MTcyNzAzNjQxNn0.SV2Wsu9UZIXq6P3fp3V9Fyv4J03QOi-4g1oADsXw_LE",[0m
+[97m		"user": {[0m
+[97m			"id": 6,[0m
+[97m			"name": "AlvaroPrueba",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$nDPSLTHj8JhywiGt/wK0weW1RBBr0pAhC5.kufpImCKLghQn/f4W.",[0m
+[97m			"role": "user",[0m
+[97m			"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m			"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m133.015 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_GET_ITEMS"[0m
+[97m}[0m
+[96mResponse: [31m500 [37m32.502 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_GET_ITEMS"[0m
+[97m}[0m
+[96mResponse: [31m500 [37m16.224 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [],[0m
+[97m	"user": {[0m
+[97m		"id": 6,[0m
+[97m		"name": "AlvaroPrueba",[0m
+[97m		"age": 20,[0m
+[97m		"email": "alvaroneira98@gmail.com",[0m
+[97m		"password": "$2a$10$nDPSLTHj8JhywiGt/wK0weW1RBBr0pAhC5.kufpImCKLghQn/f4W.",[0m
+[97m		"role": "user",[0m
+[97m		"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m		"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m51.280 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [],[0m
+[97m	"user": {[0m
+[97m		"id": 6,[0m
+[97m		"name": "AlvaroPrueba",[0m
+[97m		"age": 20,[0m
+[97m		"email": "alvaroneira98@gmail.com",[0m
+[97m		"role": "user",[0m
+[97m		"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m		"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m42.479 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "NOT_PAYLOAD_DATA"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m3.080 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "NOT_PAYLOAD_DATA"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m2.200 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "NOT_PAYLOAD_DATA"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m8.193 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "NOT_PAYLOAD_DATA"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m4.016 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Niwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjcwNDAxMzgsImV4cCI6MTcyNzA0MzczOH0.ndOpJXgyrgI000JmWwE0DUqnOte8Evu2ITz_47CRx1s",[0m
+[97m		"user": {[0m
+[97m			"id": 6,[0m
+[97m			"name": "AlvaroPrueba",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$nDPSLTHj8JhywiGt/wK0weW1RBBr0pAhC5.kufpImCKLghQn/f4W.",[0m
+[97m			"role": "user",[0m
+[97m			"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m			"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m162.206 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [],[0m
+[97m	"user": {[0m
+[97m		"id": 6,[0m
+[97m		"name": "AlvaroPrueba",[0m
+[97m		"age": 20,[0m
+[97m		"email": "alvaroneira98@gmail.com",[0m
+[97m		"role": "user",[0m
+[97m		"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m		"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m19.708 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "NOT_PAYLOAD_DATA"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m1.724 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "NOT_TOKEN"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m0.769 ms 
+
+[96mRequest: [93mGET [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "project",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "id",[0m
+[97m			"location": "params"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m5.425 ms 
+
+[96mRequest: [93mGET [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "project",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "id",[0m
+[97m			"location": "params"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m24.426 ms 
+
+[96mRequest: [93mGET [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "project",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "id",[0m
+[97m			"location": "params"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m18.909 ms 
+
+[96mRequest: [93mGET [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "project",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "id",[0m
+[97m			"location": "params"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m22.224 ms 
+
+[96mRequest: [93mGET [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "project",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "id",[0m
+[97m			"location": "params"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m7.897 ms 
+
+[96mRequest: [93mGET [97m/api/projectasdsd [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "projectasdsd",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "id",[0m
+[97m			"location": "params"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m6.222 ms 
+
+[96mRequest: [93mGET [97m/api/projectasdsd [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "projectasdsd",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "id",[0m
+[97m			"location": "params"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m19.123 ms 
+
+[96mRequest: [93mGET [97m/api/projectasdsd [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[96mResponse: [33m404 [37m2.710 ms 
+
+[96mRequest: [93mGET [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[96mResponse: [32m200 [37m40.529 ms 
+
+[96mRequest: [93mPOST [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Proyecto 1",[0m
+[97m	"prioriry": 1,[0m
+[97m	"description": "Descripción del Proyecto 1 "[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"message": "Cannot access 'project' before initialization"[0m
+[97m}[0m
+[96mResponse: [33m400 [37m2.346 ms 
+
+[96mRequest: [93mPOST [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Proyecto 1",[0m
+[97m	"prioriry": 1,[0m
+[97m	"description": "Descripción del Proyecto 1 "[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"message": "Cannot access 'project' before initialization"[0m
+[97m}[0m
+[96mResponse: [33m400 [37m4.952 ms 
+
+[96mRequest: [93mPOST [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Proyecto 1",[0m
+[97m	"priority": 1,[0m
+[97m	"description": "Descripción del Proyecto 1 "[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"message": "Cannot access 'project' before initialization"[0m
+[97m}[0m
+[96mResponse: [33m400 [37m1.752 ms 
+
+[96mRequest: [93mPOST [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Proyecto 1",[0m
+[97m	"priority": 1,[0m
+[97m	"description": "Descripción del Proyecto 1 "[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"message": "Cannot access 'project' before initialization"[0m
+[97m}[0m
+[96mResponse: [33m400 [37m4.320 ms 
+
+[96mRequest: [93mPOST [97m/api/project [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Proyecto 1",[0m
+[97m	"priority": 1,[0m
+[97m	"description": "Descripción del Proyecto 1 "[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"project_id": "48574f11-ed74-4df8-9ee1-8d1040505260",[0m
+[97m		"name": "Proyecto 1",[0m
+[97m		"priority": 1,[0m
+[97m		"description": "Descripción del Proyecto 1 ",[0m
+[97m		"updatedAt": "2024-09-23T15:07:34.100Z",[0m
+[97m		"createdAt": "2024-09-23T15:07:34.100Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m28.323 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[96mResponse: [33m404 [37m2.478 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Niwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjcxMjEwOTMsImV4cCI6MTcyNzEyNDY5M30.sJyLSbvk9rYJ2dZUs_O80VTFHjm3JrRJuELR9lYV0OU",[0m
+[97m		"user": {[0m
+[97m			"id": 6,[0m
+[97m			"name": "AlvaroPrueba",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$nDPSLTHj8JhywiGt/wK0weW1RBBr0pAhC5.kufpImCKLghQn/f4W.",[0m
+[97m			"role": "user",[0m
+[97m			"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m			"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m144.761 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [],[0m
+[97m	"user": {[0m
+[97m		"id": 6,[0m
+[97m		"name": "AlvaroPrueba",[0m
+[97m		"age": 20,[0m
+[97m		"email": "alvaroneira98@gmail.com",[0m
+[97m		"role": "user",[0m
+[97m		"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m		"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m22.181 ms 
+
+[96mRequest: [93mPOST [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.335Z",[0m
+[97m		"created_at": "2024-09-23T19:52:11.335Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m95.995 ms 
+
+[96mRequest: [93mGET [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_GET_STORAGE_ALL"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m1.555 ms 
+
+[96mRequest: [93mGET [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m			"filename": "myfile-1727121131278.mp3",[0m
+[97m			"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m			"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m32.936 ms 
+
+[96mRequest: [93mGET [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m			"filename": "myfile-1727121131278.mp3",[0m
+[97m			"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m			"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m43.386 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_GET_STORAGE_ONE"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m6.610 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_GET_STORAGE_ONE"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m7.027 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_GET_STORAGE_ONE"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m40.527 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m52.868 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m10.290 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m11.150 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m4.901 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m7.739 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m3.898 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m3.069 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m8.441 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m6.341 ms 
+
+[96mRequest: [93mGET [97m/api/storage/2 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"message": "Item not found"[0m
+[97m}[0m
+[96mResponse: [33m404 [37m7.617 ms 
+
+[96mRequest: [93mGET [97m/api/storage/3 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"message": "Item not found"[0m
+[97m}[0m
+[96mResponse: [33m404 [37m8.358 ms 
+
+[96mRequest: [93mGET [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m			"filename": "myfile-1727121131278.mp3",[0m
+[97m			"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m			"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m3.262 ms 
+
+[96mRequest: [93mGET [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m			"filename": "myfile-1727121131278.mp3",[0m
+[97m			"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m			"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m6.643 ms 
+
+[96mRequest: [93mGET [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m			"filename": "myfile-1727121131278.mp3",[0m
+[97m			"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m			"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m6.970 ms 
+
+[96mRequest: [93mGET [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m			"filename": "myfile-1727121131278.mp3",[0m
+[97m			"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m			"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m11.154 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m13.817 ms 
+
+[96mRequest: [93mGET [97m/api/storage/ [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m			"filename": "myfile-1727121131278.mp3",[0m
+[97m			"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m			"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m5.913 ms 
+
+[96mRequest: [93mGET [97m/api/storage1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[96mResponse: [33m404 [37m106.739 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m7.308 ms 
+
+[96mRequest: [93mPOST [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 2,[0m
+[97m		"filename": "myfile-1727127206109.mp3",[0m
+[97m		"url": "http://localhost:3000/myfile-1727127206109.mp3",[0m
+[97m		"updated_at": "2024-09-23T21:33:26.170Z",[0m
+[97m		"created_at": "2024-09-23T21:33:26.170Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m104.613 ms 
+
+[96mRequest: [93mGET [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m			"filename": "myfile-1727121131278.mp3",[0m
+[97m			"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m			"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"id": 2,[0m
+[97m			"url": "http://localhost:3000/myfile-1727127206109.mp3",[0m
+[97m			"filename": "myfile-1727127206109.mp3",[0m
+[97m			"created_at": "2024-09-23T21:33:26.000Z",[0m
+[97m			"updated_at": "2024-09-23T21:33:26.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m5.978 ms 
+
+[96mRequest: [93mDELETE [97m/api/storage/2 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_DELETE_STORAGE"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m2.870 ms 
+
+[96mRequest: [93mDELETE [97m/api/storage/2 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"filePath": "D:\\node\\PlayMusicNow\\backend\\controllers/../storage/myfile-1727127206109.mp3",[0m
+[97m		"deleted": 1[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m55.574 ms 
+
+[96mRequest: [93mGET [97m/api/storage/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m		"filename": "myfile-1727121131278.mp3",[0m
+[97m		"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m		"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m12.713 ms 
+
+[96mRequest: [93mGET [97m/api/storage [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"url": "http://localhost:3000/myfile-1727121131278.mp3",[0m
+[97m			"filename": "myfile-1727121131278.mp3",[0m
+[97m			"created_at": "2024-09-23T19:52:11.000Z",[0m
+[97m			"updated_at": "2024-09-23T19:52:11.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m10.878 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "NOT_PAYLOAD_DATA"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m17.287 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "NOT_AUTHENTICATE"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m20.698 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Niwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjcxMjg1NzYsImV4cCI6MTcyNzEzMjE3Nn0.1TL79DXfvHYuaQR-d0FrpNuPb_zMFxY1EGl0hcrt4MA",[0m
+[97m		"user": {[0m
+[97m			"id": 6,[0m
+[97m			"name": "AlvaroPrueba",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$nDPSLTHj8JhywiGt/wK0weW1RBBr0pAhC5.kufpImCKLghQn/f4W.",[0m
+[97m			"role": "user",[0m
+[97m			"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m			"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m150.429 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [],[0m
+[97m	"user": {[0m
+[97m		"id": 6,[0m
+[97m		"name": "AlvaroPrueba",[0m
+[97m		"age": 20,[0m
+[97m		"email": "alvaroneira98@gmail.com",[0m
+[97m		"role": "user",[0m
+[97m		"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m		"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m36.633 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist": {[0m
+[97m		"name": "iNeedHelp",[0m
+[97m		"nickname": "Eminem",[0m
+[97m		"nationality": "US"[0m
+[97m	},[0m
+[97m	"duration": {[0m
+[97m		"start": 1,[0m
+[97m		"end": 0[0m
+[97m	},[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_CREATE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m16.326 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist": {[0m
+[97m		"name": "iNeedHelp",[0m
+[97m		"nickname": "Eminem",[0m
+[97m		"nationality": "US"[0m
+[97m	},[0m
+[97m	"duration": {[0m
+[97m		"start": 1,[0m
+[97m		"end": 0[0m
+[97m	},[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_CREATE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m32.965 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "duration",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Inval[0m
+[97m...[0m
+[96mResponse: [33m403 [37m2.814 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "duration",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Inval[0m
+[97m...[0m
+[96mResponse: [33m403 [37m5.906 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "duration",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Inval[0m
+[97m...[0m
+[96mResponse: [33m403 [37m9.068 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "duration",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Inval[0m
+[97m...[0m
+[96mResponse: [33m403 [37m8.514 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "duration",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Inval[0m
+[97m...[0m
+[96mResponse: [33m403 [37m6.753 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "duration",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Inval[0m
+[97m...[0m
+[96mResponse: [33m403 [37m4.674 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "duration",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Inval[0m
+[97m...[0m
+[96mResponse: [33m403 [37m16.661 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "duration",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Inval[0m
+[97m...[0m
+[96mResponse: [33m403 [37m8.053 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nickname",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist.nationality",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "duration",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Inval[0m
+[97m...[0m
+[96mResponse: [33m403 [37m11.288 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "artist",[0m
+[97m			"location": "body"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m11.359 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_CREATE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m29.926 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_CREATE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m25.176 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp",[0m
+[97m	"artist_nickname": "Eminem",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m	"album": "Eminem",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 1,[0m
+[97m		"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m		"album": "Eminem",[0m
+[97m		"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m		"artist_name": "iNeedHelp",[0m
+[97m		"artist_nickname": "Eminem",[0m
+[97m		"artist_nationality": "US",[0m
+[97m		"duration_start": 1,[0m
+[97m		"duration_end": 0,[0m
+[97m		"mediaId": "1",[0m
+[97m		"updated_at": "2024-09-23T22:39:19.422Z",[0m
+[97m		"created_at": "2024-09-23T22:39:19.422Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m48.564 ms 
+
+[96mRequest: [93mPOST [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp2",[0m
+[97m	"artist_nickname": "Eminem2",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)2",[0m
+[97m	"album": "Eminem2",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": "1"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"id": 2,[0m
+[97m		"name": "Eminem - Without Me (Official Music Video)2",[0m
+[97m		"album": "Eminem2",[0m
+[97m		"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m		"artist_name": "iNeedHelp2",[0m
+[97m		"artist_nickname": "Eminem2",[0m
+[97m		"artist_nationality": "US",[0m
+[97m		"duration_start": 1,[0m
+[97m		"duration_end": 0,[0m
+[97m		"mediaId": "1",[0m
+[97m		"updated_at": "2024-09-23T22:40:21.757Z",[0m
+[97m		"created_at": "2024-09-23T22:40:21.757Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m40.380 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m			"album": "Eminem",[0m
+[97m			"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m			"artist_name": "iNeedHelp",[0m
+[97m			"artist_nickname": "Eminem",[0m
+[97m			"artist_nationality": "US",[0m
+[97m			"duration_start": 1,[0m
+[97m			"duration_end": 0,[0m
+[97m			"mediaId": 1,[0m
+[97m			"created_at": "2024-09-23T22:39:19.000Z",[0m
+[97m			"updated_at": "2024-09-23T22:39:19.000Z"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"id": 2,[0m
+[97m			"name": "Eminem - Without Me (Official Music Video)2",[0m
+[97m			"album": "Eminem2",[0m
+[97m			"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m			"artist_name": "iNeedHelp2",[0m
+[97m			"artist_nickname": "Eminem2",[0m
+[97m			"artist_nationality": "US",[0m
+[97m			"duration_start": 1,[0m
+[97m			"duration_end": 0,[0m
+[97m			"mediaId": 1,[0m
+[97m			"created_at": "2024-09-23T22:40:21.000Z",[0m
+[97m			"updated_at": "2024-09-23T22:40:21.000Z"[0m
+[97m		}[0m
+[97m	],[0m
+[97m	"user": {[0m
+[97m		"id": 6,[0m
+[97m		"name": "AlvaroPrueba",[0m
+[97m		"age": 20,[0m
+[97m		"email": "alvaronei[0m
+[97m...[0m
+[96mResponse: [32m200 [37m46.941 ms 
+
+[96mRequest: [93mPUT [97m/api/tracks/2 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp2Cambio",[0m
+[97m	"artist_nickname": "Eminem2",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)2",[0m
+[97m	"album": "Eminem2",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "mediaId",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "mediaId",[0m
+[97m			"location": "body"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m2.717 ms 
+
+[96mRequest: [93mPUT [97m/api/tracks/2 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp2Cambio",[0m
+[97m	"artist_nickname": "Eminem2",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)2",[0m
+[97m	"album": "Eminem2",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": 2[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_UPDATE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m27.537 ms 
+
+[96mRequest: [93mPUT [97m/api/tracks/2 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp2Cambio",[0m
+[97m	"artist_nickname": "Eminem2",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)2",[0m
+[97m	"album": "Eminem2",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": 2[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_UPDATE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m44.884 ms 
+
+[96mRequest: [93mPUT [97m/api/tracks/2 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp2Cambio",[0m
+[97m	"artist_nickname": "Eminem2",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)2",[0m
+[97m	"album": "Eminem2",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": 2[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_UPDATE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m40.821 ms 
+
+[96mRequest: [93mPUT [97m/api/tracks/2 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"artist_name": "iNeedHelp2Cambio",[0m
+[97m	"artist_nickname": "Eminem2",[0m
+[97m	"artist_nationality": "US",[0m
+[97m	"duration_start": 1,[0m
+[97m	"duration_end": 0,[0m
+[97m	"name": "Eminem - Without Me (Official Music Video)2",[0m
+[97m	"album": "Eminem2",[0m
+[97m	"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m	"mediaId": 2[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		1[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m22.303 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"name": "Eminem - Without Me (Official Music Video)",[0m
+[97m			"album": "Eminem",[0m
+[97m			"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m			"artist_name": "iNeedHelp",[0m
+[97m			"artist_nickname": "Eminem",[0m
+[97m			"artist_nationality": "US",[0m
+[97m			"duration_start": 1,[0m
+[97m			"duration_end": 0,[0m
+[97m			"mediaId": 1,[0m
+[97m			"created_at": "2024-09-23T22:39:19.000Z",[0m
+[97m			"updated_at": "2024-09-23T22:39:19.000Z"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"id": 2,[0m
+[97m			"name": "Eminem - Without Me (Official Music Video)2",[0m
+[97m			"album": "Eminem2",[0m
+[97m			"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m			"artist_name": "iNeedHelp2Cambio",[0m
+[97m			"artist_nickname": "Eminem2",[0m
+[97m			"artist_nationality": "US",[0m
+[97m			"duration_start": 1,[0m
+[97m			"duration_end": 0,[0m
+[97m			"mediaId": 2,[0m
+[97m			"created_at": "2024-09-23T22:40:21.000Z",[0m
+[97m			"updated_at": "2024-09-23T22:50:28.000Z"[0m
+[97m		}[0m
+[97m	],[0m
+[97m	"user": {[0m
+[97m		"id": 6,[0m
+[97m		"name": "AlvaroPrueba",[0m
+[97m		"age": 20,[0m
+[97m		"email": "alv[0m
+[97m...[0m
+[96mResponse: [32m200 [37m52.166 ms 
+
+[96mRequest: [93mDELETE [97m/api/tracks/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_DELETE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m45.223 ms 
+
+[96mRequest: [93mDELETE [97m/api/tracks/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": 0[0m
+[97m}[0m
+[96mResponse: [32m200 [37m31.167 ms 
+
+[96mRequest: [93mDELETE [97m/api/tracks/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": 0[0m
+[97m}[0m
+[96mResponse: [32m200 [37m33.321 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "NOT_AUTHENTICATE"[0m
+[97m}[0m
+[96mResponse: [33m401 [37m4.711 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/login [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456789"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Niwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjcxMzIzMTksImV4cCI6MTcyNzEzNTkxOX0.F46KzNLBPjqxQkEaOraEWrqMoLLCtL4GDYjdi7jGNK0",[0m
+[97m		"user": {[0m
+[97m			"id": 6,[0m
+[97m			"name": "AlvaroPrueba",[0m
+[97m			"age": 20,[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$nDPSLTHj8JhywiGt/wK0weW1RBBr0pAhC5.kufpImCKLghQn/f4W.",[0m
+[97m			"role": "user",[0m
+[97m			"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m			"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m134.343 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [[0m
+[97m		{[0m
+[97m			"id": 2,[0m
+[97m			"name": "Eminem - Without Me (Official Music Video)2",[0m
+[97m			"album": "Eminem2",[0m
+[97m			"cover": "https://cdns-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/350x350.jpg",[0m
+[97m			"artist_name": "iNeedHelp2Cambio",[0m
+[97m			"artist_nickname": "Eminem2",[0m
+[97m			"artist_nationality": "US",[0m
+[97m			"duration_start": 1,[0m
+[97m			"duration_end": 0,[0m
+[97m			"mediaId": 2,[0m
+[97m			"created_at": "2024-09-23T22:40:21.000Z",[0m
+[97m			"updated_at": "2024-09-23T22:50:28.000Z"[0m
+[97m		}[0m
+[97m	],[0m
+[97m	"user": {[0m
+[97m		"id": 6,[0m
+[97m		"name": "AlvaroPrueba",[0m
+[97m		"age": 20,[0m
+[97m		"email": "alvaroneira98@gmail.com",[0m
+[97m		"role": "user",[0m
+[97m		"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m		"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m8.811 ms 
+
+[96mRequest: [93mDELETE [97m/api/tracks/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_DELETE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m10.110 ms 
+
+[96mRequest: [93mDELETE [97m/api/tracks/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_DELETE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m10.327 ms 
+
+[96mRequest: [93mDELETE [97m/api/tracks/1 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"message": "Item not found or already deleted"[0m
+[97m}[0m
+[96mResponse: [33m404 [37m35.013 ms 
+
+[96mRequest: [93mDELETE [97m/api/tracks/2 [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "ERROR_DELETE_ITEM"[0m
+[97m}[0m
+[96mResponse: [33m403 [37m16.796 ms 
+
+[96mRequest: [93mGET [97m/api/tracks [90mIP: [37m::1[0m, [90mUser Agent: axios/1.7.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": [],[0m
+[97m	"user": {[0m
+[97m		"id": 6,[0m
+[97m		"name": "AlvaroPrueba",[0m
+[97m		"age": 20,[0m
+[97m		"email": "alvaroneira98@gmail.com",[0m
+[97m		"role": "user",[0m
+[97m		"created_at": "2024-09-22T19:19:51.000Z",[0m
+[97m		"updated_at": "2024-09-22T19:19:51.000Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m47.047 ms 
