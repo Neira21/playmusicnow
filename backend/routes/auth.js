@@ -11,6 +11,9 @@ const authRouter = express.Router();
 //TODO http://localhost:3000/api/auth/login
 //TODO http://localhost:3000/api/auth/register
 
+
+// validatorRegisterItem y validaorLoginItem son un middleware que se encarga de validar los datos de entrada
+
 authRouter.post("/auth/register", validatorRegisterItem, registerCtrl)
 
 authRouter.post("/auth/login", validatorLoginItem, loginCtrl)

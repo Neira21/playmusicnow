@@ -12,7 +12,9 @@ import { handleHttpErrors } from '../utils/handleErrors.js'
 
 export const registerCtrl = async (req, res) => {
   try {
+    console.log("Request Body:", req.body)
     req = matchedData(req);
+    console.log("Matched Data:", req);
     const newPassword = await encryptPassword(req.password)
     const body = {...req, password: newPassword }
     const dataUser = await models.usersModel.create(body);

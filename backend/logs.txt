@@ -2349,3 +2349,196 @@ Response: 200 196.773 ms
 [97m	}[0m
 [97m}[0m
 [96mResponse: [32m200 [37m47.047 ms 
+
+[96mRequest: [93mGET [97m/ [90mIP: [37m::1[0m, [90mUser Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36[0m
+[95mResponse Body:[0m
+[97mThis is the home page[0m
+[96mResponse: [32m200 [37m3.222 ms 
+
+[96mRequest: [93mGET [97m/favicon.ico [90mIP: [37m::1[0m, [90mUser Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36[0m
+[96mResponse: [33m404 [37m1.892 ms 
+
+[96mRequest: [93mGET [97m/ [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.45.0[0m
+[95mResponse Body:[0m
+[97mThis is the home page[0m
+[96mResponse: [32m200 [37m3.169 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.45.0[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Name is required",[0m
+[97m			"path": "name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Name cannot be empty",[0m
+[97m			"path": "name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Name must be between 3 and 90 characters",[0m
+[97m			"path": "name",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "age",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "age",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "age",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "email",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "email",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "email",[0m
+[97m			"location": "body"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "password",[0m
+[97m	[0m
+[97m...[0m
+[96mResponse: [33m403 [37m8.904 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.45.0[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "alvaro",[0m
+[97m	"age": "20",[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "123456"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "123456",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "password",[0m
+[97m			"location": "body"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m3.755 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.45.0[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "alvaro",[0m
+[97m	"age": "20",[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "a123456"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "a123456",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "password",[0m
+[97m			"location": "body"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m10.089 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.45.0[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "alvaro",[0m
+[97m	"age": "20",[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "a123456"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "a123456",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "password",[0m
+[97m			"location": "body"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m8.794 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.45.0[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "alvaro",[0m
+[97m	"age": "20",[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "ASD123ADSADSD21Sasd"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": [[0m
+[97m		{[0m
+[97m			"type": "field",[0m
+[97m			"value": "ASD123ADSADSD21Sasd",[0m
+[97m			"msg": "Invalid value",[0m
+[97m			"path": "password",[0m
+[97m			"location": "body"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m403 [37m4.932 ms 
+
+[96mRequest: [93mPOST [97m/api/auth/register [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.45.0[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "alvaro",[0m
+[97m	"age": "20",[0m
+[97m	"email": "alvaroneira98@gmail.com",[0m
+[97m	"password": "Alv123456"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"data": {[0m
+[97m		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InVzZXIiLCJpYXQiOjE3NTUwNTU5MTcsImV4cCI6MTc1NTA1OTUxN30.2ylSuywOElQlojrH5JV78eZPbhu0IKTAJ0eCoRqj-c0",[0m
+[97m		"user": {[0m
+[97m			"role": "user",[0m
+[97m			"id": 7,[0m
+[97m			"name": "alvaro",[0m
+[97m			"age": "20",[0m
+[97m			"email": "alvaroneira98@gmail.com",[0m
+[97m			"password": "$2a$10$fNALgXjiPjEBZaKph3u3A.u0XKRkYhI/4D.mkXyCx7FljZAQXwz7a",[0m
+[97m			"updated_at": "2025-08-13T03:31:57.373Z",[0m
+[97m			"created_at": "2025-08-13T03:31:57.373Z"[0m
+[97m		}[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m138.306 ms 
